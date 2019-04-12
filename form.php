@@ -1,7 +1,7 @@
 <html>
 <?php 
-  		if($_SERVER['HTTP_REFERER']) {
- 			$id = $_GET['id'];
+  		if(@$_SERVER['HTTP_REFERER']) {
+ 			$id = @$_GET['id'];
 		}else{
 			header("Location: index.php");
 		} 
