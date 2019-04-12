@@ -1,0 +1,39 @@
+/* Your custom styles */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600,700');
+
+* {font-family: 'Titillium Web', sans-serif; font-weight: 500;}
+body {background: #f1f1f1}
+h1, h2, h3 {font-weight: bold;margin-bottom: 30px;}
+.container {
+    margin: auto; auto;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 1px 5px 5px 5px #eaeaea;
+}
+.container.trans {
+  background: initial;
+  box-shadow: initial;
+}
+.map {border:0px;}
+.container.adres {padding: 18px 30px 30px 30px;}
+.navbar-nav li a {padding: 10px}
+.navbar-brand {font-weight: bold}
+
+.form-control{
+    border: none;
+    background: #f1f1f1;
+    text-align: right;
+    padding: 12px;
+    font-size: 1.2em;
+ }
+ .btn.full-size {width: 100%}
+ .suchen {
+    background: initial;
+    border: none;
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: -15px
+ }
+ .geschlecht {
+ }
