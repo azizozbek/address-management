@@ -1,5 +1,5 @@
 <?php 
-
+error_reporting(0);
 function readList($filename){
 	$j_list = file_get_contents($filename);
 	$liste 	= json_decode($j_list, JSON_OBJECT_AS_ARRAY);
